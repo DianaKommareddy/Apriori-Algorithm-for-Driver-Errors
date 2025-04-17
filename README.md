@@ -42,3 +42,10 @@ _FP-Growth:_
 Identified same top itemsets
 More efficient with ~50% reduction in runtime
 
+
+**📊 Results Summary**
+
+![image](https://github.com/user-attachments/assets/8d83a2f8-810b-4fc5-9db5-feed75b983c0)
+
+
+
