@@ -16,9 +16,9 @@ The dataset comprises transactional-style records representing traffic patterns.
    
 **_Support Thresholds:_**
 
-_**1.First Iteration: Minimum support = 0.4
+_1.First Iteration: Minimum support = 0.4
 
-2.Subsequent Iterations: Minimum support = 0.1**_
+2.Subsequent Iterations: Minimum support = 0.1_
 
 **🧠 Algorithms Used**
 
