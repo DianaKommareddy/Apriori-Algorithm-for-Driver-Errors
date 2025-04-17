@@ -13,6 +13,7 @@ The dataset comprises transactional-style records representing traffic patterns.
 1. T: Traffic event
 2. SGN1: Signal 1 active
 3. PR1, SC3: Priority route or sensor check active
+   
 _Support Thresholds:_
 
 _**1.First Iteration: Minimum support = 0.4
@@ -24,15 +25,18 @@ _🔶 Apriori_
 1. Classical breadth-first algorithm
 2. Candidate generation + pruning
 3. Runtime: ~1.0002 seconds
+   
 _🔷 FP-Growth_
 1. Tree-based depth-first approach
 2. Avoids candidate generation
 3. Runtime: ~0.4715 seconds
    
 **📈 Top 10 Frequent Itemsets**
+
 _Apriori:_
 Found itemsets like: (T), (SGN1), (T, SGN1), (PR1), (T, SGN1, PR1)
 Slower due to multiple passes and candidate generation
+
 _FP-Growth:_
 Identified same top itemsets
 More efficient with ~50% reduction in runtime
