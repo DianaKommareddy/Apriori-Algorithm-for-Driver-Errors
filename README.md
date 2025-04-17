@@ -14,9 +14,10 @@ The dataset comprises transactional-style records representing traffic patterns.
 2. SGN1: Signal 1 active
 3. PR1, SC3: Priority route or sensor check active
    
-_Support Thresholds:_
+**_Support Thresholds:_**
 
 _**1.First Iteration: Minimum support = 0.4
+
 2.Subsequent Iterations: Minimum support = 0.1**_
 
 **🧠 Algorithms Used**
